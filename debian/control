@@ -1,0 +1,13 @@
+Source: astian-gtk-themes
+Section: gnome
+Priority: optional
+Maintainer: Astian_OS <contact@astian.org>
+Build-Depends: cmake, debhelper (>= 9)
+Standards-Version: 3.9.6
+Homepage: https://astian.org
+Vcs-Git: https://github.com/Ponchale/
+
+Package: astian-gtk-themes
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Astian_OS GTK Themes
